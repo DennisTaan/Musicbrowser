@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  
+  }
+  .kurs-box{
+   font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  
+  #header{
+    background-color: #777;
+    position: center;
+    text-align: center;
+    color: black;
+    padding: 30px;
+  }
+  
+  nav {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    border: white;
+    
+  }
+  
+  li a {
+   display: inline;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  
+  
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
